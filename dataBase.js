@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 // Conectar a MongoDB Atlas
 mongoose
-  .connect("mongodb+srv://web-user:web-user123@cluster0.ahdifdo.mongodb.net/", {
+  .connect("URI_HERE", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
